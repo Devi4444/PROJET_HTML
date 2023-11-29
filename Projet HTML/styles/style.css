@@ -1,0 +1,238 @@
+
+
+  
+body{
+    background:url(../images/fond.jpg) center/cover;
+    min-height: 100vh;
+}
+
+/* style.css */
+body.home, header.headd {
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-arial, sans-s;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*header*/
+.headd header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+    background-color: white;
+}
+
+/*nav*/
+.menu{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 13px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.logo img{
+    width: 30%;
+    height: auto;
+    font-size: 10px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 15px;
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+
+ul li {
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: underline;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: rgb(154, 51, 13);
+}
+
+/**section***/
+img.img-milano {
+    width: 100%;
+    border-radius: 25px;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 0 0 0 black;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 3rem;
+    box-shadow: 0px 0px 10px 0px black; 
+    
+}
+
+.textA{
+    font-size: 30px;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 50px auto;
+
+}
+
+
+ul a{
+    color: rgb(60, 0, 255);
+    text-decoration: underline;
+    text-align: left;
+    font-size: 1.5rem;
+    margin: auto;
+
+}
+
+h2{
+    text-align: center ;
+    color: rgb(0, 0, 0);
+    background-color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    font-size: 2rem;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+table{
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    background-color: wheat;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px black;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-style: solid;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 60% 70%;
+    background-color: rgb(245, 222, 179);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 50px auto;
+    
+    
+    
+}
+
+textarea{
+    resize: none;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 5px auto;
+}
+
+input{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+h4{
+    color: black;
+    text-align: left;
+    font-size: 1.4rem;
+
+}
+
+
+
+#btn-submit{
+    grid-area: auto;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.2s;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px auto;
+}
+
+#btn-submit:hover{
+    background-color: blue;
+    color: white;
+}
+
+/*************************Footer**************************/
+
+footer {
+	background-color: #f8f8f8;
+	padding: 20px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 1%;
+	margin-top: 5%;
+}
+footer p {
+	font-weight: bold;
+	font-style: italic;
+	margin: 10px;
+	padding: 10px;
+}
